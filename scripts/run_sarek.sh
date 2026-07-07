@@ -31,6 +31,22 @@ cmd=(
     -resume
 )
 
+if [[ -n "${VEP_CACHE:-}" ]]; then
+    cmd+=(--vep_cache "${VEP_CACHE}")
+fi
+
+if [[ -n "${SNPEFF_CACHE:-}" ]]; then
+    cmd+=(--snpeff_cache "${SNPEFF_CACHE}")
+fi
+
+if [[ -n "${OUTDIR_CACHE:-}" ]]; then
+    cmd+=(--outdir_cache "${OUTDIR_CACHE}")
+fi
+
+if [[ "${DOWNLOAD_CACHE:-false}" == "true" ]]; then
+    cmd+=(--download_cache)
+fi
+
 if [[ -n "${IGENOMES_BASE:-}" ]]; then
     cmd+=(--igenomes_base "${IGENOMES_BASE}")
 fi
