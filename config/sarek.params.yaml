@@ -4,7 +4,11 @@ outdir: "results/sarek"
 genome: "GATK.GRCh38"
 
 aligner: "bwa-mem"
-tools: "haplotypecaller,deepvariant"
+tools: "haplotypecaller,deepvariant,freebayes,mpileup,manta,tiddit,indexcov,cnvkit,varlociraptor,vep,snpeff"
+
+normalize_vcfs: true
+snv_consensus_calling: true
+consensus_min_count: 2
 
 multiqc_config: "config/multiqc.yaml"
 multiqc_title: "WGS QC"
