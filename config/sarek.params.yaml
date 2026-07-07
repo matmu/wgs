@@ -1,0 +1,12 @@
+input: "config/samplesheet.csv"
+outdir: "results/sarek"
+
+genome: "GATK.GRCh38"
+
+aligner: "bwa-mem"
+tools: "haplotypecaller,deepvariant"
+
+multiqc_config: "config/multiqc.yaml"
+multiqc_title: "WGS QC"
+
+wes: false

@@ -1,0 +1,13 @@
+.env
+
+config/slurm.local.config
+config/fastqs.local.tsv
+
+fastq/*.fq.gz
+fastq/*.fastq.gz
+
+results/
+work/
+.nextflow*
+.nextflow.log*
+.nextflow.log.*
