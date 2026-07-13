@@ -1,6 +1,6 @@
 .env
 
-config/slurm.local.config
+config/nextflow.local.config
 config/fastqs.local.tsv
 
 fastq/*.fq.gz
@@ -12,3 +12,4 @@ work/
 .nextflow.log*
 .nextflow.log.*
 cache/
+logs

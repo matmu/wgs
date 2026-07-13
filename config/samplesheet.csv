@@ -1,2 +1,2 @@
-patient,sample,lane,fastq_1,fastq_2
-P001,S001,L001,fastq/wgs_R1.fq.gz,fastq/wgs_R2.fq.gz
+patient,sex,status,sample,lane,fastq_1,fastq_2
+P001,XY,0,S001,L001,fastq/wgs_R1.fq.gz,fastq/wgs_R2.fq.gz
