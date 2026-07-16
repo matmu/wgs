@@ -12,12 +12,12 @@ JOB_ID=$(
     sbatch \
         --parsable \
         --chdir="${PROJECT_ROOT}" \
-        scripts/run_sarek.sbatch
+        scripts/run_verifybamid.sbatch
 )
 
 JOB_ID="${JOB_ID%%;*}"
 
-echo "Submitted Sarek job: ${JOB_ID}"
+echo "Submitted VerifyBamID job: ${JOB_ID}"
 echo "Follow output:"
-echo "  tail -f logs/sarek-${JOB_ID}.out"
-echo "  tail -f logs/sarek-${JOB_ID}.err"
+echo "  tail -f logs/verifybamid-${JOB_ID}.out"
+echo "  tail -f logs/verifybamid-${JOB_ID}.err"

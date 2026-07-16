@@ -13,3 +13,5 @@ work/
 .nextflow.log.*
 cache/
 logs
+*.html
+*.txt
