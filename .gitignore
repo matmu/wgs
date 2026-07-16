@@ -15,3 +15,4 @@ cache/
 logs
 *.html
 *.txt
+nohup.out
