@@ -1,0 +1,9 @@
+sample_id: "S001"
+
+alignment: "results/verifybamid/input/S001.recal.cram"
+alignment_index: "results/verifybamid/input/S001.recal.cram.crai"
+
+reference: "results/verifybamid/reference/Homo_sapiens_assembly38.fasta"
+reference_index: "results/verifybamid/reference/Homo_sapiens_assembly38.fasta.fai"
+
+svd_prefix: "results/verifybamid/reference/verifybamid2/1000g.phase3.100k.b38.vcf.gz.dat"
